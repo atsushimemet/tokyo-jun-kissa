@@ -388,4 +388,18 @@ export const cafes: Cafe[] = [
       },
     ],
   },
+  {
+    id: "tajimaya-coffee-honten",
+    name: "但馬屋珈琲店本店",
+    station: "新宿",
+    stationSlug: "shinjuku",
+    googleMapUrl:
+      "https://www.google.com/maps?q=%E3%80%92160-0023%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%96%20%E4%BD%86%E9%A6%AC%E5%B1%8B%E7%8F%88%E7%90%B2%E5%BA%97%E6%9C%AC%E5%BA%97&ftid=0x60188cd716664cb5:0x486bbc4f647d46ff",
+    recommendationLinks: [
+      {
+        label: "さんたつ：但馬屋珈琲店本店",
+        url: "https://san-tatsu.jp/articles/180511/",
+      },
+    ],
+  },
 ]
