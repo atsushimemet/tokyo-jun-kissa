@@ -258,4 +258,134 @@ export const cafes: Cafe[] = [
       },
     ],
   },
+  {
+    id: "kissa-nikai",
+    name: "喫茶ニカイ",
+    station: "日暮里",
+    stationSlug: "nippori",
+    googleMapUrl: "https://maps.app.goo.gl/WtgSzKJPnJZLpqi6A?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ 喫茶ニカイ",
+        url: "https://www.instagram.com/p/DZj30vXExVS/?img_index=6&igsh=MXhjN2VianBibTgwbw==",
+      },
+    ],
+  },
+  {
+    id: "ginza-ranzu-ginza",
+    name: "銀座 和蘭豆 銀座店",
+    station: "新橋",
+    stationSlug: "shimbashi",
+    googleMapUrl: "https://maps.app.goo.gl/P6oemLyHEtEhY6Qo9?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ 銀座 和蘭豆 銀座店",
+        url: "https://www.instagram.com/p/DY9P6Wikyf0/?igsh=amRvNmg4b244OHd5",
+      },
+    ],
+  },
+  {
+    id: "kissa-new-prince",
+    name: "喫茶ニュープリンス",
+    station: "中延",
+    stationSlug: "nakanobu",
+    googleMapUrl: "https://maps.app.goo.gl/egxuB6BjvdZffAhz8?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ 喫茶ニュープリンス",
+        url: "https://www.instagram.com/p/DTkNYMBEwdk/?igsh=MXJndHpwNHpnZWl3cA==",
+      },
+    ],
+  },
+  {
+    id: "kojo",
+    name: "古城",
+    station: "上野",
+    stationSlug: "ueno",
+    googleMapUrl: "https://maps.app.goo.gl/eyo2fjS2bfiezo2X6?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ 古城",
+        url: "https://www.instagram.com/reel/DQ_bBFskyqr/?igsh=cGxrYWJpdGgwbGl0",
+      },
+    ],
+  },
+  {
+    id: "kissa-pearl",
+    name: "喫茶パール",
+    station: "京成立石",
+    stationSlug: "keisei-tateishi",
+    googleMapUrl: "https://maps.app.goo.gl/CJ5fZAyM585TJMTC9?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ 喫茶パール",
+        url: "https://www.instagram.com/p/DLo92tlz7Xu/?img_index=8&igsh=bjFmd3NhNnY1MWN4",
+      },
+    ],
+  },
+  {
+    id: "cafe-paulista",
+    name: "カフェパウリスタ",
+    station: "銀座",
+    stationSlug: "ginza",
+    googleMapUrl: "https://maps.app.goo.gl/eG9XzrtNjQ3YmwSo7?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ カフェパウリスタ",
+        url: "https://www.instagram.com/p/DDtsLJazcrZ/?igsh=MW1tZjJvZ2pveGE4eg==",
+      },
+    ],
+  },
+  {
+    id: "cafe-hakkakuto",
+    name: "カフェ八角塔",
+    station: "三田",
+    stationSlug: "mita",
+    googleMapUrl: "https://maps.app.goo.gl/58Cn3RvmavwjYEgC6?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ カフェ八角塔",
+        url: "https://www.instagram.com/p/C_uxa56T5R7/?img_index=1&igsh=Ymp1b2J1dHh2OWxn",
+      },
+    ],
+  },
+  {
+    id: "france-ya",
+    name: "仏蘭西屋",
+    station: "銀座",
+    stationSlug: "ginza",
+    googleMapUrl: "https://maps.app.goo.gl/raVEwMAp8kJTvgBA6?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ 仏蘭西屋",
+        url: "https://www.instagram.com/p/C9uBqEmyrJV/?img_index=1&igsh=MWFqOHUzcDVncDAzOA==",
+      },
+    ],
+  },
+  {
+    id: "tricolore-honten",
+    name: "トリコロール本店",
+    station: "東銀座",
+    stationSlug: "higashi-ginza",
+    googleMapUrl: "https://maps.app.goo.gl/B9KdNrCA6Q2kbiCy6?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ トリコロール本店",
+        url: "https://www.instagram.com/p/C4bbImBvi4p/?img_index=2&igsh=ajloN2Z1Zm5mNWpu",
+      },
+    ],
+  },
+  {
+    id: "shinjuku-ramburu",
+    name: "名曲・珈琲 新宿らんぶる",
+    station: "新宿",
+    stationSlug: "shinjuku",
+    googleMapUrl: "https://maps.app.goo.gl/6JJ2QyJagAyhvayx6?g_st=ic",
+    recommendationLinks: [
+      {
+        label: "まったりレトロカフェ 名曲・珈琲 新宿らんぶる",
+        url: "https://www.instagram.com/p/C02Qd2yvDhU/?igsh=bG1jcG0xYmU4ZTJp",
+      },
+    ],
+  },
 ]
