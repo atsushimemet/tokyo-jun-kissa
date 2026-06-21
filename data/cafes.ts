@@ -425,7 +425,8 @@ export const cafes: Cafe[] = [
       "https://maps.google.com?q=%E3%80%92111-0055+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%89%E7%AD%8B%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%94%E2%88%92%EF%BC%91%EF%BC%90+%E3%82%89%E3%81%84&ftid=0x60188ebbd25a2819:0x7570dc42a4ceaf4f",
     recommendationLinks: [
       {
-        label: "note：らい",
+        label:
+          "蔵前Catalog_Rare1 【蔵前カフェ】喫茶らい｜ノスタルジックな空間で過ごす静かな時間。穴場のレトロ喫茶",
         url: "https://note.com/rare_1/n/n13cb65cbfb31",
       },
     ],
