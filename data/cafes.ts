@@ -559,7 +559,7 @@ export const cafes: Cafe[] = [
       "https://maps.google.com?q=%E3%80%92116-0003+%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%8D%92%E5%B7%9D%E5%8C%BA%E5%8D%97%E5%8D%83%E4%BD%8F%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%91%E2%88%92%EF%BC%98+%E3%82%AA%E3%83%B3%E3%83%AA%E3%83%BC&ftid=0x60188ef598703db5:0xd3a910521a0af874",
     recommendationLinks: [
       {
-        label: "note：【町喫茶に行く 第9回】オンリー～南千住～",
+        label: "note：【町喫茶に行く 第9回】オンリー～南千住���",
         url: "https://note.com/nakashi0_0/n/ne6fcfb2effa8",
       },
     ],
@@ -720,6 +720,154 @@ export const cafes: Cafe[] = [
       {
         label: "note：〖町喫茶に行く 第11回〗ミルクホール モカ～北千住～",
         url: "https://note.com/nakashi0_0/n/nc8774727940b",
+      },
+    ],
+  },
+  {
+    id: "kanda-brazil",
+    name: "神田伯剌西爾",
+    station: "神保町",
+    stationSlug: "jimbocho",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92101-0051+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E7%A5%9E%E4%BF%9D%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%97%E2%88%92%EF%BC%91+%E6%9B%B8%E6%B3%89%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%87%E8%84%87%E5%B0%8F%E5%AE%AE%E5%B1%B1%E3%83%93%E3%83%AB+%E7%A5%9E%E7%94%B0%E4%BC%AF%E5%89%8C%E8%A5%BF%E7%88%BE&ftid=0x60188c1119ecc131:0x5b76c6e12452dee8",
+    recommendationLinks: [
+      {
+        label:
+          "さんたつ：直火式焙煎にこだわったコーヒーとともに喫煙もできる喫茶店『神田伯剌西爾』",
+        url: "https://san-tatsu.jp/articles/95112/",
+      },
+    ],
+  },
+  {
+    id: "chiasma-coffee-zoshigaya",
+    name: "キアズマ珈琲 カフェ喫茶店 雑司ヶ谷店",
+    station: "雑司が谷",
+    stationSlug: "zoshigaya",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92171-0032+%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%B1%8A%E5%B3%B6%E5%8C%BA%E9%9B%91%E5%8F%B8%E3%81%8C%E8%B0%B7%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%99%E2%88%92%EF%BC%95+%E3%82%AD%E3%82%A2%E3%82%BA%E3%83%9E%E7%8F%88%E7%90%B2+%E3%82%AB%E3%83%95%E3%82%A7%E5%96%AB%E8%8C%B6%E5%BA%97+%E9%9B%91%E5%8F%B8%E3%83%B6%E8%B0%B7%E5%BA%97&ftid=0x60188d6b248e8f1d:0xa6f531c317c94473",
+    recommendationLinks: [
+      {
+        label:
+          "Mediall：昭和初期の面影を残した喫茶「キアズマ珈琲」で味わう珠玉の一杯｜豊島区雑司が谷",
+        url: "https://mediall.jp/food/92205",
+      },
+    ],
+  },
+  {
+    id: "tombolo-bunshitsu",
+    name: "喫茶 トンボロ（トンボロ分室）",
+    station: "神楽坂",
+    stationSlug: "kagurazaka",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92162-0825+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E7%A5%9E%E6%A5%BD%E5%9D%82%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%96+%E5%96%AB%E8%8C%B6+%E3%83%88%E3%83%B3%E3%83%9C%E3%83%AD%EF%BC%88%E3%83%88%E3%83%B3%E3%83%9C%E3%83%AD%E5%88%86%E5%AE%A4%EF%BC%89&ftid=0x60188c50cac2a371:0x1d22da95902b0d73",
+    recommendationLinks: [
+      {
+        label:
+          "GINZA：神楽坂「トンボロ」：ふわふわホットケーキでほっと一息【あの人の行きつけ喫茶店】",
+        url: "https://ginzamag.com/categories/food/176873",
+      },
+    ],
+  },
+  {
+    id: "cafe-casa",
+    name: "カフェ香咲",
+    station: "外苑前",
+    stationSlug: "gaienmae",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92150-0001+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E7%A5%9E%E5%AE%AE%E5%89%8D%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%94%EF%BC%91%E2%88%92%EF%BC%91+%E3%82%AB%E3%83%95%E3%82%A7%E9%A6%99%E5%92%B2&ftid=0x60188c98e4fbc20b:0x35f4c619a147d5",
+    recommendationLinks: [
+      {
+        label:
+          "レッツエンジョイ東京：外苑前で40年愛される「カフェ香咲」。大規模リニューアルを経た名喫茶の今",
+        url: "https://www.enjoytokyo.jp/article/202823/",
+      },
+    ],
+  },
+  {
+    id: "doroningyo",
+    name: "泥人形",
+    station: "千駄ケ谷",
+    stationSlug: "sendagaya",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92151-0051+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E5%8D%83%E9%A7%84%E3%82%B1%E8%B0%B7%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%90%E2%88%92%EF%BC%92+%E7%AC%AC%EF%BC%92%E3%83%9B%E3%83%AA%E3%83%93%E3%83%AB+%E6%B3%A5%E4%BA%BA%E5%BD%A2+%E5%9C%B0%E4%B8%8B1%E9%9A%8E&ftid=0x60188cc0a6ae1e0f:0xf6fcafad6356498d",
+    recommendationLinks: [
+      {
+        label:
+          "logirlブログ：地下で出会った“想像以上のオムライス”とは？ 44年の歴史に新しさを取り入れる「カフェレストラン 泥人形」｜「奥森皐月の喫茶礼賛」第5杯",
+        url: "https://tvablog.tv-asahi.co.jp/reading/logirl/9302/",
+      },
+    ],
+  },
+  {
+    id: "coffee-aroma-asakusa",
+    name: "珈琲 アロマ",
+    station: "浅草",
+    stationSlug: "asakusa",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92111-0032+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%89%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%94%E2%88%92%EF%BC%95+%E7%8F%88%E7%90%B2+%E3%82%A2%E3%83%AD%E3%83%9E&ftid=0x60188ebf76e7fd69:0x571b66acf18a9f9e",
+    recommendationLinks: [
+      {
+        label:
+          "おとなの週末Web：珈琲アロマ（喫茶店/浅草）｜珈琲は勿論、トーストや生ジュースは絶品♪",
+        url: "https://otonano-shumatsu.com/articles/234523",
+      },
+    ],
+  },
+  {
+    id: "hakushaku-sugamo",
+    name: "伯爵 巣鴨店",
+    station: "巣鴨",
+    stationSlug: "sugamo",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92170-0002+%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%B1%8A%E5%B3%B6%E5%8C%BA%E5%B7%A3%E9%B4%A8%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%92%EF%BC%93+%E4%BC%AF%E7%88%B5+%E5%B7%A3%E9%B4%A8%E5%BA%97&ftid=0x60188d9853dc4f03:0xed1ee86484bb3f1",
+    recommendationLinks: [
+      {
+        label: "たびよみ：【旅する喫茶店】珈琲専門館 伯爵 巣鴨店（東京）",
+        url: "https://tabiyomi.yomiuri-ryokou.co.jp/article/004353.html",
+      },
+    ],
+  },
+  {
+    id: "cafe-biot",
+    name: "カフェ・ビィオット",
+    station: "神田",
+    stationSlug: "kanda",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92101-0038+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E7%BE%8E%E5%80%89%E7%94%BA%EF%BC%91+%E3%82%AB%E3%83%95%E3%82%A7%E3%83%BB%E3%83%93%E3%82%A3%E3%82%AA%E3%83%83%E3%83%88&ftid=0x60188eaa8de410cf:0xa38ec9c09808cd2",
+    recommendationLinks: [
+      {
+        label: "N trip：【東京・神田】カフェ・ビィオット",
+        url: "https://ntrip.jp/1398/",
+      },
+    ],
+  },
+  {
+    id: "coffee-lawn",
+    name: "珈琲ロン COFFEE LAWN",
+    station: "四ツ谷",
+    stationSlug: "yotsuya",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92160-0004+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%9B%9B%E8%B0%B7%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92+%E7%8F%88%E7%90%B2%E3%83%AD%E3%83%B3+COFFEE+LAWN&ftid=0x60188c8bc7d3afe7:0xd8e3bf04167de52f",
+    recommendationLinks: [
+      {
+        label:
+          "Hanako Web：街路がお店の中に続いている？ 名喫茶〈喫茶ロン〉でできる特別な体験",
+        url: "https://hanako.tokyo/culture/473592/",
+      },
+    ],
+  },
+  {
+    id: "nanatsumori",
+    name: "珈琲亭 七つ森",
+    station: "新高円寺",
+    stationSlug: "shin-koenji",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92166-0003+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%9D%89%E4%B8%A6%E5%8C%BA%E9%AB%98%E5%86%86%E5%AF%BA%E5%8D%97%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%90%E2%88%92%EF%BC%92%EF%BC%90+%E7%8F%88%E7%90%B2%E4%BA%AD+%E4%B8%83%E3%81%A4%E6%A3%AE&ftid=0x6018f263abcf9f57:0x7c7acad2135db264",
+    recommendationLinks: [
+      {
+        label:
+          "キナリノ：【高円寺：七つ森】コーヒーにシガー。あの文化人も通った、老舗喫茶。",
+        url: "https://kinarino.jp/cat4/3227",
       },
     ],
   },
