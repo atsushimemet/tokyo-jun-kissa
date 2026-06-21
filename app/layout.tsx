@@ -1,17 +1,23 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Noto_Sans_JP, Noto_Serif_JP } from 'next/font/google'
 import './globals.css'
 
-const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const notoSansJP = Noto_Sans_JP({
+  variable: '--font-noto-sans-jp',
   subsets: ['latin'],
+  weight: ['400', '500', '700'],
+})
+const notoSerifJP = Noto_Serif_JP({
+  variable: '--font-noto-serif-jp',
+  subsets: ['latin'],
+  weight: ['400', '600', '700', '900'],
 })
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: '東京純喫茶 | 駅から選ぶ、東京の純喫茶メモ。',
+  description:
+    '気になる駅名を選ぶと、その駅の近くにある純喫茶と、Google Map・おすすめ記事/SNSへのリンクだけを表示します。',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -33,11 +39,10 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: '#f3efe6',
 }
 
 export default function RootLayout({
@@ -46,7 +51,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang="ja"
+      className={`${notoSansJP.variable} ${notoSerifJP.variable} bg-background`}
+    >
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
