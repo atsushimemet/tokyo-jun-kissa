@@ -431,4 +431,152 @@ export const cafes: Cafe[] = [
       },
     ],
   },
+  {
+    id: "meikyoku-kissa-lion",
+    name: "名曲喫茶ライオン",
+    station: "渋谷",
+    stationSlug: "shibuya",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92150-0043+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E9%81%93%E7%8E%84%E5%9D%82%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%99%E2%88%92%EF%BC%91%EF%BC%93+%E5%90%8D%E6%9B%B2%E5%96%AB%E8%8C%B6%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3&ftid=0x60188ca98a6f0715:0x4171930fc8d6bd6",
+    recommendationLinks: [
+      {
+        label:
+          "るるぶ&more.：昭和レトロな異世界へGO！渋谷のクラシック名曲喫茶「ライオン」",
+        url: "https://rurubu.jp/andmore/article/3358",
+      },
+    ],
+  },
+  {
+    id: "ginza-west-honten",
+    name: "銀座ウエスト 銀座本店",
+    station: "銀座",
+    stationSlug: "ginza",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92104-0061+%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A7%EF%BC%97%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%96+%E9%8A%80%E5%BA%A7%E3%82%A6%E3%82%A8%E3%82%B9%E3%83%88+%E9%8A%80%E5%BA%A7%E6%9C%AC%E5%BA%97&ftid=0x60188bef2e27b899:0x27dc0c57eaef8dba",
+    recommendationLinks: [
+      {
+        label:
+          "るるぶ&more.：銀座ウエスト本店（東京都／銀座）のアクセス・営業時間・料金情報",
+        url: "https://rurubu.jp/andmore/spot/80010644",
+      },
+    ],
+  },
+  {
+    id: "ladrio",
+    name: "CAFÉ ラドリオ",
+    station: "神保町",
+    stationSlug: "jimbocho",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92101-0051+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E7%A5%9E%E4%BF%9D%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%93+CAF%C3%89+%E3%83%A9%E3%83%89%E3%83%AA%E3%82%AA&ftid=0x60188c111cc093ad:0xcd87d08a346fed81",
+    recommendationLinks: [
+      {
+        label:
+          "るるぶ&more.：ラドリオ（東京都／神保町・御茶ノ水）のアクセス・営業時間・料金情報",
+        url: "https://rurubu.jp/andmore/spot/80066796",
+      },
+    ],
+  },
+  {
+    id: "milonga-nueva",
+    name: "ミロンガ·ヌオーバ",
+    station: "神保町",
+    stationSlug: "jimbocho",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92101-0051+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E7%A5%9E%E4%BF%9D%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%93+%E3%83%9F%E3%83%AD%E3%83%B3%E3%82%AC%C2%B7%E3%83%8C%E3%82%AA%E3%83%BC%E3%83%90&ftid=0x60188c111cc093ad:0x2c0afe76490faa17",
+    recommendationLinks: [
+      {
+        label:
+          "るるぶ&more.：【東京ドーム周辺】「ミロンガ ヌオーバ」はアルゼンチンタンゴの音楽が流れる老舗喫茶店",
+        url: "https://rurubu.jp/andmore/article/19107",
+      },
+    ],
+  },
+  {
+    id: "kissa-toronto",
+    name: "トロント",
+    station: "入谷",
+    stationSlug: "iriya",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92110-0013+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E5%85%A5%E8%B0%B7%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%96%E2%88%92%EF%BC%91%EF%BC%96+%E6%9D%BE%E7%94%B0%E3%83%93%E3%83%AB+%E3%83%88%E3%83%AD%E3%83%B3%E3%83%88&ftid=0x60188e903f09ac0d:0x710d7885439c7bbb",
+    recommendationLinks: [
+      {
+        label:
+          "るるぶ&more.：【東京】レトロ喫茶「喫茶トロント」の“映えプリン”やオムライスで、昭和にタイムスリップ",
+        url: "https://rurubu.jp/andmore/article/23973",
+      },
+    ],
+  },
+  {
+    id: "coffee-oujou",
+    name: "珈琲王城",
+    station: "上野",
+    stationSlug: "ueno",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92110-0005+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%8A%E9%87%8E%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%98%E2%88%92%EF%BC%91%EF%BC%95+%E7%8F%88%E7%90%B2%E7%8E%8B%E5%9F%8E&ftid=0x60188e9f05e8c2af:0xecc6a290ff7da9c9",
+    recommendationLinks: [
+      {
+        label: "note：[上野]珈琲 王城",
+        url: "https://note.com/rocky_days_/n/nb2471ab68ee1",
+      },
+    ],
+  },
+  {
+    id: "takayama-coffee",
+    name: "高山珈琲",
+    station: "小川町",
+    stationSlug: "ogawamachi",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92101-0041+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E9%A0%88%E7%94%B0%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%92%EF%BC%96+%E9%AB%98%E5%B1%B1%E7%8F%88%E7%90%B2&ftid=0x60188c033dbe9d95:0x6fccf08c3a0ef2f0",
+    recommendationLinks: [
+      {
+        label:
+          "さんたつ：神田のおすすめランチ17選。明治生まれの老舗の味から、うまいラーメン、カフェごはんまで",
+        url: "https://san-tatsu.jp/collects/2894/",
+      },
+    ],
+  },
+  {
+    id: "kissa-pupe",
+    name: "喫茶プペ 神田錦町",
+    station: "小川町",
+    stationSlug: "ogawamachi",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92101-0054+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E9%8C%A6%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91%EF%BC%91+%E5%8E%9F%E3%83%93%E3%83%AB+%E5%96%AB%E8%8C%B6%E3%83%97%E3%83%9A+%E7%A5%9E%E7%94%B0%E9%8C%A6%E7%94%BA&ftid=0x60188c0f8c1f6001:0xb6431a46d59dc4b",
+    recommendationLinks: [
+      {
+        label:
+          "さんたつ：絶品ランチで働く人々の胃袋を支える、神田錦町『喫茶プぺ』",
+        url: "https://san-tatsu.jp/articles/98142/",
+      },
+    ],
+  },
+  {
+    id: "only-minamisenju",
+    name: "オンリー",
+    station: "南千住",
+    stationSlug: "minami-senju",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92116-0003+%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%8D%92%E5%B7%9D%E5%8C%BA%E5%8D%97%E5%8D%83%E4%BD%8F%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%91%E2%88%92%EF%BC%98+%E3%82%AA%E3%83%B3%E3%83%AA%E3%83%BC&ftid=0x60188ef598703db5:0xd3a910521a0af874",
+    recommendationLinks: [
+      {
+        label: "note：【町喫茶に行く 第9回】オンリー～南千住～",
+        url: "https://note.com/nakashi0_0/n/ne6fcfb2effa8",
+      },
+    ],
+  },
+  {
+    id: "junkissa-dear",
+    name: "喫茶 デア",
+    station: "赤羽",
+    stationSlug: "akabane",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92115-0045+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8C%97%E5%8C%BA%E8%B5%A4%E7%BE%BD%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%98+%E5%96%AB%E8%8C%B6+%E3%83%87%E3%82%A2&ftid=0x6018930298c2aba1:0xecb353a58f92d400",
+    recommendationLinks: [
+      {
+        label:
+          "さんたつ：約40年間、変わらぬ味と雰囲気。赤羽の『純喫茶 デア』でよき時間を愉しむ",
+        url: "https://san-tatsu.jp/articles/59153/",
+      },
+    ],
+  },
 ]
