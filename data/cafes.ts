@@ -388,4 +388,47 @@ export const cafes: Cafe[] = [
       },
     ],
   },
+  {
+    id: "tajimaya-coffee-honten",
+    name: "但馬屋珈琲店本店",
+    station: "新宿",
+    stationSlug: "shinjuku",
+    googleMapUrl:
+      "https://www.google.com/maps?q=%E3%80%92160-0023%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%96%20%E4%BD%86%E9%A6%AC%E5%B1%8B%E7%8F%88%E7%90%B2%E5%BA%97%E6%9C%AC%E5%BA%97&ftid=0x60188cd716664cb5:0x486bbc4f647d46ff",
+    recommendationLinks: [
+      {
+        label: "さんたつ：但馬屋珈琲店本店",
+        url: "https://san-tatsu.jp/articles/180511/",
+      },
+    ],
+  },
+  {
+    id: "coffee-times",
+    name: "珈琲タイムス",
+    station: "新宿",
+    stationSlug: "shinjuku",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92160-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%93%EF%BC%95%E2%88%92%EF%BC%91%EF%BC%91+%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9%E3%83%93%E3%83%AB+%EF%BC%91%E9%9A%8E+%E7%8F%88%E7%90%B2%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9&ftid=0x60188cda8a4d3121:0x72131e29422017b2",
+    recommendationLinks: [
+      {
+        label: "tokyomovinground 珈琲タイムス 新宿",
+        url: "https://www.instagram.com/p/DGSpGEAz0KN/?igsh=MXJyZGhkdWcwMWkzbA==",
+      },
+    ],
+  },
+  {
+    id: "rai",
+    name: "らい",
+    station: "蔵前",
+    stationSlug: "kuramae",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92111-0055+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%89%E7%AD%8B%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%94%E2%88%92%EF%BC%91%EF%BC%90+%E3%82%89%E3%81%84&ftid=0x60188ebbd25a2819:0x7570dc42a4ceaf4f",
+    recommendationLinks: [
+      {
+        label:
+          "蔵前Catalog_Rare1 【蔵前カフェ】喫茶らい｜ノスタルジックな空間で過ごす静かな時間。穴場のレトロ喫茶",
+        url: "https://note.com/rare_1/n/n13cb65cbfb31",
+      },
+    ],
+  },
 ]
