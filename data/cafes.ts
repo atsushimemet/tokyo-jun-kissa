@@ -107,7 +107,7 @@ export const cafes: Cafe[] = [
     name: "喫茶サテラ",
     station: "渋谷",
     stationSlug: "shibuya",
-    googleMapUrl: "https://maps.app.goo.gl/ECaRgpsLAy6h4EZK7?g_st=ic",
+    googleMapUrl: "https://maps.app.goo.gl/yHgokLL4etk9tCMY9?g_st=ic",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：喫茶サテラ",
