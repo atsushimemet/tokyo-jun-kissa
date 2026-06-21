@@ -16,7 +16,7 @@ export const cafes: Cafe[] = [
     name: "COFFEE HALL くぐつ草",
     station: "吉祥寺",
     stationSlug: "kichijoji",
-    googleMapUrl: "https://maps.app.goo.gl/5ZHLHJpgYsjpxHkK9?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=COFFEE%20HALL%20%E3%81%8F%E3%81%90%E3%81%A4%E8%8D%89&ftid=0x6018ee4864a8e61b:0x7a6d7066eb2fbe0e",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：COFFEE HALL くぐつ草",
@@ -29,7 +29,7 @@ export const cafes: Cafe[] = [
     name: "ゆりあぺむぺる",
     station: "吉祥寺",
     stationSlug: "kichijoji",
-    googleMapUrl: "https://maps.app.goo.gl/cnmzuy8Ld7aBAU2h6?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%82%86%E3%82%8A%E3%81%82%E3%81%BA%E3%82%80%E3%81%BA%E3%82%8B&ftid=0x6018ee480f7acd9d:0x9471a8b8ffc2bb3",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：ゆりあぺむぺる",
@@ -42,7 +42,7 @@ export const cafes: Cafe[] = [
     name: "珈琲西武 本店",
     station: "新宿",
     stationSlug: "shinjuku",
-    googleMapUrl: "https://maps.app.goo.gl/DkJcJgyGv2oREPGF9?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E7%8F%88%E7%90%B2%E8%A5%BF%E6%AD%A6%20%E6%9C%AC%E5%BA%97&ftid=0x60188cda66c6d6af:0xb97e4e8d2b1b05db",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：珈琲西武 本店",
@@ -55,7 +55,7 @@ export const cafes: Cafe[] = [
     name: "物豆奇",
     station: "西荻窪",
     stationSlug: "nishi-ogikubo",
-    googleMapUrl: "https://maps.app.goo.gl/YMW4N216oEextxiQA?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E7%89%A9%E8%B1%86%E5%A5%87&ftid=0x6018ee122b7ee0cb:0xadda2ed5ba27fe11",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：物豆奇",
@@ -68,7 +68,7 @@ export const cafes: Cafe[] = [
     name: "味の珈琲屋さぼうる",
     station: "神保町",
     stationSlug: "jimbocho",
-    googleMapUrl: "https://maps.app.goo.gl/goduuPJnQQ9bEi7S8?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%91%B3%E3%81%AE%E7%8F%88%E7%90%B2%E5%B1%8B%E3%81%95%E3%81%BC%E3%81%86%E3%82%8B&ftid=0x60188d0078a2dcf7:0x1ed3078c317ea5c1",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：さぼうる",
@@ -81,7 +81,7 @@ export const cafes: Cafe[] = [
     name: "喫茶 you",
     station: "東銀座",
     stationSlug: "higashi-ginza",
-    googleMapUrl: "https://maps.app.goo.gl/ww5gwxmY6wKFGbgLA?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%96%AB%E8%8C%B6%20you&ftid=0x60188be0bbe9246b:0x48ea261820b8e596",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：喫茶ユー",
@@ -94,7 +94,7 @@ export const cafes: Cafe[] = [
     name: "自家焙煎珈琲凡",
     station: "新宿",
     stationSlug: "shinjuku",
-    googleMapUrl: "https://maps.app.goo.gl/jok5kBfYRq8ugavQA?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E8%87%AA%E5%AE%B6%E7%84%99%E7%85%8E%E7%8F%88%E7%90%B2%E5%87%A1&ftid=0x60188d002f338415:0x33cf260d919cae45",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：自家焙煎珈琲 凡",
@@ -107,7 +107,7 @@ export const cafes: Cafe[] = [
     name: "喫茶サテラ",
     station: "渋谷",
     stationSlug: "shibuya",
-    googleMapUrl: "https://maps.app.goo.gl/yHgokLL4etk9tCMY9?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%96%AB%E8%8C%B6%E3%82%B5%E3%83%86%E3%83%A9&ftid=0x60188bcc488854e1:0xae81bbf5e8c0e794",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：喫茶サテラ",
@@ -120,7 +120,7 @@ export const cafes: Cafe[] = [
     name: "カフェテラスウィーン",
     station: "三河島",
     stationSlug: "mikawashima",
-    googleMapUrl: "https://maps.app.goo.gl/SpqgQ3SS7yECjLf86?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%82%AB%E3%83%95%E3%82%A7%E3%83%86%E3%83%A9%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%B3&ftid=0x60188e7b9300a8bf:0x7b12254984f79a0",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：カフェテラス ウイーン",
@@ -133,7 +133,7 @@ export const cafes: Cafe[] = [
     name: "カフェ ド ランブル",
     station: "新橋",
     stationSlug: "shimbashi",
-    googleMapUrl: "https://maps.app.goo.gl/EicdGCAv2evg1KKXA?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%82%AB%E3%83%95%E3%82%A7%20%E3%83%89%20%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB&ftid=0x60188be8798d1867:0x2ba50e8c8c54781f",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：カフェ・ド・ランブル",
@@ -146,7 +146,7 @@ export const cafes: Cafe[] = [
     name: "アロマ珈琲",
     station: "東京",
     stationSlug: "tokyo",
-    googleMapUrl: "https://maps.app.goo.gl/dmxAyuqh7FKQjgQo8?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%82%A2%E3%83%AD%E3%83%9E%E7%8F%88%E7%90%B2&ftid=0x60188bfcefeae7f1:0xba0fbb491f79ab4a",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：アロマ珈琲",
@@ -159,7 +159,7 @@ export const cafes: Cafe[] = [
     name: "喫茶 チェリー",
     station: "蒲田",
     stationSlug: "kamata",
-    googleMapUrl: "https://maps.app.goo.gl/kMp2rcwnREr8VraP7?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%96%AB%E8%8C%B6%20%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC&ftid=0x6018605bcf1cdce7:0x277a2adff6803dfd",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：チェリー",
@@ -172,7 +172,7 @@ export const cafes: Cafe[] = [
     name: "珈琲専門館伯爵池袋北口店",
     station: "池袋",
     stationSlug: "ikebukuro",
-    googleMapUrl: "https://maps.app.goo.gl/rKjG7aBhj3xRWvme7?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E7%8F%88%E7%90%B2%E5%B0%82%E9%96%80%E9%A4%A8%E4%BC%AF%E7%88%B5%E6%B1%A0%E8%A2%8B%E5%8C%97%E5%8F%A3%E5%BA%97&ftid=0x60188d5df3a33ca3:0x65b636a815be61f4",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：珈琲専門館 伯爵 池袋北口店",
@@ -185,7 +185,7 @@ export const cafes: Cafe[] = [
     name: "デンキヤホール",
     station: "浅草",
     stationSlug: "asakusa",
-    googleMapUrl: "https://maps.app.goo.gl/BxrVJPsBFjWGRxsa6?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%83%87%E3%83%B3%E3%82%AD%E3%83%A4%E3%83%9B%E3%83%BC%E3%83%AB&ftid=0x60188eeb1eb8346d:0x54f0ba7fad53df4d",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：デンキヤホール",
@@ -198,7 +198,7 @@ export const cafes: Cafe[] = [
     name: "珈琲伴茶夢",
     station: "目白",
     stationSlug: "mejiro",
-    googleMapUrl: "https://maps.app.goo.gl/isHoDfqXveFbmMz86?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E7%8F%88%E7%90%B2%E4%BC%B4%E8%8C%B6%E5%A4%A2&ftid=0x60188d44071e912b:0x9f6841882a685889",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：珈琲 伴茶夢",
@@ -211,7 +211,7 @@ export const cafes: Cafe[] = [
     name: "喫茶デン",
     station: "鴬谷",
     stationSlug: "uguisudani",
-    googleMapUrl: "https://maps.app.goo.gl/2h9vHp3FtyAPMgAR6?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%96%AB%E8%8C%B6%E3%83%87%E3%83%B3&ftid=0x60188e85a4dffdc7:0xb5e31dd5c41111a5",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：デン",
@@ -224,7 +224,7 @@ export const cafes: Cafe[] = [
     name: "コーヒーショップギャラン",
     station: "上野",
     stationSlug: "ueno",
-    googleMapUrl: "https://maps.app.goo.gl/T7FNYeRkrpomMJuG7?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%B3&ftid=0x60188e9e5ed35e4d:0xf998d9681043b0d7",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：ギャラン",
@@ -237,7 +237,7 @@ export const cafes: Cafe[] = [
     name: "談話室ニュートーキョー",
     station: "日暮里",
     stationSlug: "nippori",
-    googleMapUrl: "https://maps.app.goo.gl/DFChHgVT1qJjBY7r7?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E8%AB%87%E8%A9%B1%E5%AE%A4%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BC%E3%82%AD%E3%83%A7%E3%83%BC&ftid=0x60188dd5c598af45:0x7f9a22f2ae95b621",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：ニュートーキョー 談話室",
@@ -250,7 +250,7 @@ export const cafes: Cafe[] = [
     name: "カヤバ珈琲",
     station: "日暮里",
     stationSlug: "nippori",
-    googleMapUrl: "https://maps.app.goo.gl/z8ZEnxwTGFvZvcg86?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%82%AB%E3%83%A4%E3%83%90%E7%8F%88%E7%90%B2&ftid=0x60188dd2ff27d8ad:0xb205712509505ae7",
     recommendationLinks: [
       {
         label: "Time Out Tokyo：カヤバ珈琲",
@@ -263,7 +263,7 @@ export const cafes: Cafe[] = [
     name: "喫茶ニカイ",
     station: "日暮里",
     stationSlug: "nippori",
-    googleMapUrl: "https://maps.app.goo.gl/WtgSzKJPnJZLpqi6A?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%96%AB%E8%8C%B6%E3%83%8B%E3%82%AB%E3%82%A4&ftid=0x60188ddf761158c1:0xe9122be328c7eed1",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ 喫茶ニカイ",
@@ -276,7 +276,7 @@ export const cafes: Cafe[] = [
     name: "銀座 和蘭豆 銀座店",
     station: "新橋",
     stationSlug: "shimbashi",
-    googleMapUrl: "https://maps.app.goo.gl/P6oemLyHEtEhY6Qo9?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E9%8A%80%E5%BA%A7%20%E5%92%8C%E8%98%AD%E8%B1%86%20%E9%8A%80%E5%BA%A7%E5%BA%97&ftid=0x60188bef29f43b27:0x6bdbfb24c781840d",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ 銀座 和蘭豆 銀座店",
@@ -289,7 +289,7 @@ export const cafes: Cafe[] = [
     name: "喫茶ニュープリンス",
     station: "中延",
     stationSlug: "nakanobu",
-    googleMapUrl: "https://maps.app.goo.gl/egxuB6BjvdZffAhz8?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%96%AB%E8%8C%B6%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9&ftid=0x60188bc1a9d8a1b7:0x6e1d122380be1166",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ 喫茶ニュープリンス",
@@ -302,7 +302,7 @@ export const cafes: Cafe[] = [
     name: "古城",
     station: "上野",
     stationSlug: "ueno",
-    googleMapUrl: "https://maps.app.goo.gl/eyo2fjS2bfiezo2X6?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%8F%A4%E5%9F%8E&ftid=0x60188e98df4627d3:0xf357f0060fe49460",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ 古城",
@@ -315,7 +315,7 @@ export const cafes: Cafe[] = [
     name: "喫茶パール",
     station: "京成立石",
     stationSlug: "keisei-tateishi",
-    googleMapUrl: "https://maps.app.goo.gl/CJ5fZAyM585TJMTC9?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%96%AB%E8%8C%B6%E3%83%91%E3%83%BC%E3%83%AB&ftid=0x60188f5d59678b31:0xc913ede2ffdfbf91",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ 喫茶パール",
@@ -328,7 +328,7 @@ export const cafes: Cafe[] = [
     name: "カフェパウリスタ",
     station: "銀座",
     stationSlug: "ginza",
-    googleMapUrl: "https://maps.app.goo.gl/eG9XzrtNjQ3YmwSo7?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%82%AB%E3%83%95%E3%82%A7%E3%83%91%E3%82%A6%E3%83%AA%E3%82%B9%E3%82%BF&ftid=0x60188be87d875979:0xda55f1ae7e5d3a10",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ カフェパウリスタ",
@@ -341,7 +341,7 @@ export const cafes: Cafe[] = [
     name: "カフェ八角塔",
     station: "三田",
     stationSlug: "mita",
-    googleMapUrl: "https://maps.app.goo.gl/58Cn3RvmavwjYEgC6?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%82%AB%E3%83%95%E3%82%A7%E5%85%AB%E8%A7%92%E5%A1%94&ftid=0x60188bde491cc4f1:0xb32a1fb8fce23fe8",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ カフェ八角塔",
@@ -354,7 +354,7 @@ export const cafes: Cafe[] = [
     name: "仏蘭西屋",
     station: "銀座",
     stationSlug: "ginza",
-    googleMapUrl: "https://maps.app.goo.gl/raVEwMAp8kJTvgBA6?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E4%BB%8F%E8%98%AD%E8%A5%BF%E5%B1%8B&ftid=0x60188be6bc656c8b:0xc83868e61299ba84",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ 仏蘭西屋",
@@ -367,7 +367,7 @@ export const cafes: Cafe[] = [
     name: "トリコロール本店",
     station: "東銀座",
     stationSlug: "higashi-ginza",
-    googleMapUrl: "https://maps.app.goo.gl/B9KdNrCA6Q2kbiCy6?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E3%83%88%E3%83%AA%E3%82%B3%E3%83%AD%E3%83%BC%E3%83%AB%E6%9C%AC%E5%BA%97&ftid=0x60188bef080d6a0b:0x95cc0d6816085dc5",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ トリコロール本店",
@@ -380,7 +380,7 @@ export const cafes: Cafe[] = [
     name: "名曲・珈琲 新宿らんぶる",
     station: "新宿",
     stationSlug: "shinjuku",
-    googleMapUrl: "https://maps.app.goo.gl/6JJ2QyJagAyhvayx6?g_st=ic",
+    googleMapUrl: "https://www.google.com/maps?q=%E5%90%8D%E6%9B%B2%E3%83%BB%E7%8F%88%E7%90%B2%20%E6%96%B0%E5%AE%BF%E3%82%89%E3%82%93%E3%81%B6%E3%82%8B&ftid=0x60188cdb01e97e91:0x1faa7dea16f28f27",
     recommendationLinks: [
       {
         label: "まったりレトロカフェ 名曲・珈琲 新宿らんぶる",
