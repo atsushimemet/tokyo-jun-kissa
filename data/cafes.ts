@@ -523,8 +523,8 @@ export const cafes: Cafe[] = [
   {
     id: "takayama-coffee",
     name: "高山珈琲",
-    station: "神田",
-    stationSlug: "kanda",
+    station: "小川町",
+    stationSlug: "ogawamachi",
     googleMapUrl:
       "https://maps.google.com?q=%E3%80%92101-0041+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E9%A0%88%E7%94%B0%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%92%EF%BC%96+%E9%AB%98%E5%B1%B1%E7%8F%88%E7%90%B2&ftid=0x60188c033dbe9d95:0x6fccf08c3a0ef2f0",
     recommendationLinks: [
@@ -538,8 +538,8 @@ export const cafes: Cafe[] = [
   {
     id: "kissa-pupe",
     name: "喫茶プペ 神田錦町",
-    station: "神田",
-    stationSlug: "kanda",
+    station: "小川町",
+    stationSlug: "ogawamachi",
     googleMapUrl:
       "https://maps.google.com?q=%E3%80%92101-0054+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E9%8C%A6%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91%EF%BC%91+%E5%8E%9F%E3%83%93%E3%83%AB+%E5%96%AB%E8%8C%B6%E3%83%97%E3%83%9A+%E7%A5%9E%E7%94%B0%E9%8C%A6%E7%94%BA&ftid=0x60188c0f8c1f6001:0xb6431a46d59dc4b",
     recommendationLinks: [
