@@ -16,17 +16,15 @@ export function CafeCard({ cafe }: { cafe: Cafe }) {
 
       <div className="flex flex-col">
         {/* クリック可能なのは Google Map リンクのみ */}
-        <a
+        <ExternalLink
           href={cafe.googleMapUrl}
-          target="_blank"
-          rel="noopener noreferrer"
           className="flex min-h-[44px] items-center justify-between px-5 py-4 text-sm font-medium text-card-foreground transition-colors hover:bg-secondary"
         >
           <span>Google Mapで開く</span>
           <span aria-hidden="true" className="text-muted-foreground">
             ↗
           </span>
-        </a>
+        </ExternalLink>
 
         <div className="border-t border-border px-5 py-4">
           <p className="mb-2 font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
@@ -36,17 +34,15 @@ export function CafeCard({ cafe }: { cafe: Cafe }) {
             {cafe.recommendationLinks.map((link, index) => (
               <li key={`${cafe.id}-link-${index}`}>
                 {/* クリック可能なのは記事・SNSリンクのみ */}
-                <a
+                <ExternalLink
                   href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="flex min-h-[44px] items-center gap-2 text-sm text-card-foreground underline decoration-border underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
                 >
                   <span aria-hidden="true" className="text-muted-foreground">
                     —
                   </span>
                   {link.label}
-                </a>
+                </ExternalLink>
               </li>
             ))}
           </ul>
