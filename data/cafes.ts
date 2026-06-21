@@ -579,4 +579,148 @@ export const cafes: Cafe[] = [
       },
     ],
   },
+  {
+    id: "coffee-tengoku",
+    name: "珈琲天国",
+    station: "浅草",
+    stationSlug: "asakusa",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92111-0032+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%B5%85%E8%8D%89%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%94%EF%BC%91%E2%88%92%EF%BC%99+%E7%8F%88%E7%90%B2%E5%A4%A9%E5%9B%BD&ftid=0x60188ec087d4e21f:0x5bc212cb91884619",
+    recommendationLinks: [
+      {
+        label: "ことりっぷ：東京で見つけたレトロ可愛い喫茶店11選～浅草や下北沢",
+        url: "https://co-trip.jp/article/518559",
+      },
+    ],
+  },
+  {
+    id: "kissa-nito",
+    name: "喫茶 ニト",
+    station: "千駄木",
+    stationSlug: "sendagi",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92113-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%87%E4%BA%AC%E5%8C%BA%E5%8D%83%E9%A7%84%E6%9C%A8%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%94%EF%BC%92%E2%88%92%EF%BC%91%EF%BC%93+%E5%96%AB%E8%8C%B6+%E3%83%8B%E3%83%88&ftid=0x60188d0902696119:0xfadbeb0820d0b7f4",
+    recommendationLinks: [
+      {
+        label:
+          "るるぶ&more.：ネクストトレンド“谷根千”で発見！玉子トースト＆むっちりプリンが絶品なレトロカフェ",
+        url: "https://rurubu.jp/andmore/article/9346",
+      },
+    ],
+  },
+  {
+    id: "kissa-tomeibara",
+    name: "喫茶 透明薔薇",
+    station: "下北沢",
+    stationSlug: "shimokitazawa",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92155-0031+%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E5%8C%97%E6%B2%A2%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%94%E2%88%92%EF%BC%95+%E3%82%A4%E3%82%B9%E3%82%BA%E3%83%93%E3%83%AB+%EF%BC%92%EF%BC%90%EF%BC%93%E5%8F%B7+%E5%96%AB%E8%8C%B6+%E9%80%8F%E6%98%8E%E8%96%94%E8%96%87&ftid=0x6018f3858fea6649:0x23f8b5166ffe6572",
+    recommendationLinks: [
+      {
+        label:
+          "るるぶ&more.：気分は大正ロマン！下北沢「喫茶 透明薔薇」でノスタルジックなひとときを",
+        url: "https://rurubu.jp/andmore/article/20073",
+      },
+    ],
+  },
+  {
+    id: "kissa-koyuki",
+    name: "喫茶小雪",
+    station: "ときわ台",
+    stationSlug: "tokiwadai",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92174-0063+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%9D%BF%E6%A9%8B%E5%8C%BA%E5%89%8D%E9%87%8E%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%95+%E5%96%AB%E8%8C%B6%E5%B0%8F%E9%9B%AA&ftid=0x6018ede81a10c11d:0xd7f59b5cd4f371ff",
+    recommendationLinks: [
+      {
+        label:
+          "るるぶ&more.：昭和にタイムスリップしたみたい！東京・ときわ台「喫茶小雪」で味わうバラモチーフのデザートが気になる",
+        url: "https://rurubu.jp/andmore/article/21007",
+      },
+    ],
+  },
+  {
+    id: "kissa-bridge",
+    name: "喫茶 ブリッヂ",
+    station: "銀座",
+    stationSlug: "ginza",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92104-0061+%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E9%8A%80%E5%BA%A7%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%91+%E8%A5%BF%E9%8A%80%E5%BA%A7%E3%83%87%E3%83%91%E3%83%BC%E3%83%88+B1F+%E5%96%AB%E8%8C%B6+%E3%83%96%E3%83%AA%E3%83%83%E3%83%82&ftid=0x60188be599400001:0x95391817d19d7b02",
+    recommendationLinks: [
+      {
+        label: "ことりっぷ：東京で見つけたレトロ可愛い喫茶店11選～浅草や下北沢",
+        url: "https://co-trip.jp/article/518559",
+      },
+    ],
+  },
+  {
+    id: "brown-kissa-derkoffer",
+    name: "ブラウン喫茶デルコッファー",
+    station: "本所吾妻橋",
+    stationSlug: "honjo-azumabashi",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92130-0001+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A2%A8%E7%94%B0%E5%8C%BA%E5%90%BE%E5%A6%BB%E6%A9%8B%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%90+%E3%83%AD%E3%83%BC%E3%83%A4%E3%83%AB%E3%82%B8%E3%83%A5%E3%83%B3+%EF%BC%91F+%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%E5%96%AB%E8%8C%B6%E3%83%87%E3%83%AB%E3%82%B3%E3%83%83%E3%83%95%E3%82%A1%E3%83%BC&ftid=0x60188ed1ad8bffff:0x3c7bd8e6701b8efe",
+    recommendationLinks: [
+      {
+        label: "ことりっぷ：東京で見つけたレトロ可愛い喫茶店11選～浅草や下北沢",
+        url: "https://co-trip.jp/article/518559",
+      },
+    ],
+  },
+  {
+    id: "kissa-negura",
+    name: "喫茶ネグラ",
+    station: "下北沢",
+    stationSlug: "shimokitazawa",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92155-0031+%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E5%8C%97%E6%B2%A2%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%96%E2%88%92%EF%BC%91%EF%BC%93+1F%E5%8C%97%E5%81%B4+%E5%96%AB%E8%8C%B6%E3%83%8D%E3%82%B0%E3%83%A9&ftid=0x6018f36b7b3b884f:0xd0599e634a6089ab",
+    recommendationLinks: [
+      {
+        label: "ことりっぷ：東京で見つけたレトロ可愛い喫茶店11選～浅草や下北沢",
+        url: "https://co-trip.jp/article/518559",
+      },
+    ],
+  },
+  {
+    id: "coffee-house-poem-hatagaya",
+    name: "コーヒーハウスぽえむ 幡ヶ谷店",
+    station: "幡ヶ谷",
+    stationSlug: "hatagaya",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92151-0072+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E5%B9%A1%E3%82%B1%E8%B0%B7%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%98%E2%88%92%EF%BC%91%EF%BC%90+%E3%83%AA%E3%83%83%E3%82%B7%E3%82%A7%E3%83%AB%E5%B9%A1%E3%82%B1%E8%B0%B7+%EF%BC%91%EF%BC%A6+%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%8F%E3%82%A6%E3%82%B9%E3%81%BD%E3%81%88%E3%82%80+%E5%B9%A1%E3%83%B6%E8%B0%B7%E5%BA%97&ftid=0x6018f33b4a828901:0xf5130eb48673ec91",
+    recommendationLinks: [
+      {
+        label: "さんたつ：街と自分を繋いでくれる【幡ヶ谷の純喫茶「ぽえむ」】",
+        url: "https://san-tatsu.jp/supporter/reports/262/",
+      },
+    ],
+  },
+  {
+    id: "cafe-lapin",
+    name: "カフェ・ラパン",
+    station: "上野",
+    stationSlug: "ueno",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92110-0005+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%8A%E9%87%8E%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%95%E2%88%92%EF%BC%97+%E3%82%AB%E3%83%95%E3%82%A7%E3%83%BB%E3%83%A9%E3%83%91%E3%83%B3&ftid=0x60188c1fdeec34f7:0xcb13370b8f75acbe",
+    recommendationLinks: [
+      {
+        label:
+          "note：〖町喫茶に行く 第14回〗上野の路地裏に佇む大人気喫茶店～カフェ ラパン(上野)～",
+        url: "https://note.com/nakashi0_0/n/n0b75439c63d5",
+      },
+    ],
+  },
+  {
+    id: "coffee-moca",
+    name: "coffee モカ",
+    station: "北千住",
+    stationSlug: "kita-senju",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92120-0041+%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%B6%B3%E7%AB%8B%E5%8C%BA%E5%8D%83%E4%BD%8F%E5%85%83%E7%94%BA%EF%BC%93%EF%BC%98%E2%88%92%EF%BC%91+coffee+%E3%83%A2%E3%82%AB&ftid=0x60188e15d2e438b5:0xd7f47737d1998224",
+    recommendationLinks: [
+      {
+        label: "note：〖町喫茶に行く 第11回〗ミルクホール モカ～北千住～",
+        url: "https://note.com/nakashi0_0/n/nc8774727940b",
+      },
+    ],
+  },
 ]
