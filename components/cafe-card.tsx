@@ -1,4 +1,5 @@
 import type { Cafe } from "@/data/cafes"
+import { ExternalLink } from "@/components/external-link"
 
 export function CafeCard({ cafe }: { cafe: Cafe }) {
   return (
