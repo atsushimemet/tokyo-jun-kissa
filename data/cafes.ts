@@ -402,4 +402,18 @@ export const cafes: Cafe[] = [
       },
     ],
   },
+  {
+    id: "coffee-times",
+    name: "珈琲タイムス",
+    station: "新宿",
+    stationSlug: "shinjuku",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92160-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%93%EF%BC%95%E2%88%92%EF%BC%91%EF%BC%91+%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9%E3%83%93%E3%83%AB+%EF%BC%91%E9%9A%8E+%E7%8F%88%E7%90%B2%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9&ftid=0x60188cda8a4d3121:0x72131e29422017b2",
+    recommendationLinks: [
+      {
+        label: "tokyomovinground 珈琲タイムス 新宿",
+        url: "https://www.instagram.com/p/DGSpGEAz0KN/?igsh=MXJyZGhkdWcwMWkzbA==",
+      },
+    ],
+  },
 ]
