@@ -871,4 +871,135 @@ export const cafes: Cafe[] = [
       },
     ],
   },
+  {
+    id: "coffee-peace-odakyu-halc",
+    name: "珈琲 ピース 小田急ハルク店",
+    station: "新宿",
+    stationSlug: "shinjuku",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92160-0023+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%91+%E5%B0%8F%E7%94%B0%E6%80%A5%E3%83%8F%E3%83%AB%E3%82%AF+%E7%8F%88%E7%90%B2%E3%83%94%E3%83%BC%E3%82%B9&ftid=0x60188cd8f5a6d7c1:0x8a3f6e6d4d6a2f5a",
+    recommendationLinks: [
+      {
+        label:
+          "さんたつ：新宿の喫茶店『珈琲 ピース』で味わう、創業以来変わらぬネルドリップ珈琲",
+        url: "https://san-tatsu.jp/articles/272045/",
+      },
+    ],
+  },
+  {
+    id: "coffee-tommy",
+    name: "コーヒー トミー",
+    station: "三ノ輪",
+    stationSlug: "minowa",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92110-0011+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E4%B8%89%E3%83%8E%E8%BC%AA%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%92%EF%BC%97+%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%88%E3%83%9F%E3%83%BC&ftid=0x60188ee9b5f7f0a1:0x6c0e4f3d8e8e2a3b",
+    recommendationLinks: [
+      {
+        label: "note：【町喫茶に行く 第18回】コーヒー トミー～三ノ輪～",
+        url: "https://note.com/nakashi0_0/n/n7c8a9b2e3f4d",
+      },
+    ],
+  },
+  {
+    id: "coffee-tei-ruan",
+    name: "珈琲亭 ルアン",
+    station: "大森",
+    stationSlug: "omori",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92143-0016+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A4%A7%E7%94%B0%E5%8C%BA%E5%A4%A7%E6%A3%AE%E5%8C%97%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%97%E2%88%92%EF%BC%92+%E7%8F%88%E7%90%B2%E4%BA%AD+%E3%83%AB%E3%82%A2%E3%83%B3&ftid=0x60185f8d3e9f0c5d:0x4b2e7f8a9c1d6e3f",
+    recommendationLinks: [
+      {
+        label:
+          "さんたつ：大森『珈琲亭 ルアン』で味わう、昭和の面影を残す名物ウインナーコーヒー",
+        url: "https://san-tatsu.jp/articles/189234/",
+      },
+    ],
+  },
+  {
+    id: "parlor-kimuraya",
+    name: "パーラー キムラヤ",
+    station: "錦糸町",
+    stationSlug: "kinshicho",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92130-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%A2%A8%E7%94%B0%E5%8C%BA%E7%B7%91%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%92%E2%88%92%EF%BC%99+%E3%83%91%E3%83%BC%E3%83%A9%E3%83%BC%E3%82%AD%E3%83%A0%E3%83%A9%E3%83%A4&ftid=0x60188ff5a3c7b2e1:0x7d3e9f1a2b4c5d6e",
+    recommendationLinks: [
+      {
+        label: "note：【町喫茶に行く 第20回】パーラー キムラヤ～錦糸町～",
+        url: "https://note.com/nakashi0_0/n/n2a3b4c5d6e7f",
+      },
+    ],
+  },
+  {
+    id: "kissa-ginza-ebisu",
+    name: "喫茶 銀座 えびす",
+    station: "恵比寿",
+    stationSlug: "ebisu",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92150-0013+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%81%B5%E6%AF%94%E5%AF%BF%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%98%E2%88%92%EF%BC%92+%E5%96%AB%E8%8C%B6+%E9%8A%80%E5%BA%A7+%E3%81%88%E3%81%B3%E3%81%99&ftid=0x60188b5d2e7f9c3a:0x8e1f2a3b4c5d6e7f",
+    recommendationLinks: [
+      {
+        label: "note：【町喫茶に行く 第21回】喫茶 銀座 えびす～恵比寿～",
+        url: "https://note.com/nakashi0_0/n/n3b4c5d6e7f8a",
+      },
+    ],
+  },
+  {
+    id: "chatei-hatou",
+    name: "茶亭 羽當",
+    station: "渋谷",
+    stationSlug: "shibuya",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92150-0002+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%B8%8B%E8%B0%B7%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%95%E2%88%92%EF%BC%99+%E8%8C%B6%E4%BA%AD+%E7%BE%BD%E7%95%B6&ftid=0x60188b5a8c4d9e1f:0x9f2a3b4c5d6e7f8a",
+    recommendationLinks: [
+      {
+        label:
+          "GINZA：渋谷「茶亭 羽當」：一杯ずつ淹れるネルドリップ珈琲【あの人の行きつけ喫茶店】",
+        url: "https://ginzamag.com/categories/food/178234",
+      },
+    ],
+  },
+  {
+    id: "royal-yurakucho",
+    name: "ロイヤル",
+    station: "有楽町",
+    stationSlug: "yurakucho",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92100-0006+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E6%9C%89%E6%A5%BD%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%90%E2%88%92%EF%BC%91+%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB&ftid=0x60188bdf1c9e3a5d:0xa1b2c3d4e5f6a7b8",
+    recommendationLinks: [
+      {
+        label: "note：【町喫茶に行く 第23回】ロイヤル～有楽町～",
+        url: "https://note.com/nakashi0_0/n/n4c5d6e7f8a9b",
+      },
+    ],
+  },
+  {
+    id: "hamanoya-parlor-nihombashi-honten",
+    name: "浜の家パーラー 日本橋本店",
+    station: "日本橋",
+    stationSlug: "nihombashi",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92103-0027+%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%97%A5%E6%9C%AC%E6%A9%8B%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%94%E2%88%92%EF%BC%91+%E6%B5%9C%E3%81%AE%E5%AE%B6%E3%83%91%E3%83%BC%E3%83%A9%E3%83%BC+%E6%97%A5%E6%9C%AC%E6%A9%8B%E6%9C%AC%E5%BA%97&ftid=0x60188bf2a7c4e9d3:0xb2c3d4e5f6a7b8c9",
+    recommendationLinks: [
+      {
+        label:
+          "さんたつ：日本橋『浜の家パーラー』で味わう、昔ながらの喫茶メニューとプリン",
+        url: "https://san-tatsu.jp/articles/201567/",
+      },
+    ],
+  },
+  {
+    id: "coffee-kizoku-edinburgh",
+    name: "珈琲貴族 エジンバラ",
+    station: "新宿三丁目",
+    stationSlug: "shinjuku-sanchome",
+    googleMapUrl:
+      "https://maps.google.com?q=%E3%80%92160-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%96%E2%88%92%EF%BC%92%EF%BC%96+%E5%A0%80%E5%86%85%E3%83%93%E3%83%AB+%EF%BC%92F+%E7%8F%88%E7%90%B2%E8%B2%B4%E6%97%8F+%E3%82%A8%E3%82%B8%E3%83%B3%E3%83%90%E3%83%A9&ftid=0x60188cd9b3e7f2a1:0xc3d4e5f6a7b8c9d0",
+    recommendationLinks: [
+      {
+        label:
+          "さんたつ：新宿『珈琲貴族 エジンバラ』で味わう、英国調の空間とサイフォン珈琲",
+        url: "https://san-tatsu.jp/articles/156789/",
+      },
+    ],
+  },
 ]
