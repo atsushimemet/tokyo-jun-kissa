@@ -42,7 +42,7 @@ export function CafeForm({ cafe }: { cafe?: Cafe }) {
         <input
           name="id"
           defaultValue={cafe?.id}
-          readOnly={!!cafe}
+          readOnly={!!cafe?.id}
           required
           placeholder="e.g. coffee-hall-kugutsusou"
           className="input"
