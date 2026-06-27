@@ -7,6 +7,9 @@ export type Cafe = {
   stationSlug: string
   googleMapUrl: string
   recommendationLinks: { label: string; url: string }[]
+  walkMinutes: number | null
+  smokingPolicy: "紙電子OK" | "電子のみOK" | "禁煙" | null
+  seatingInfo: string | null
 }
 
 function rowToCafe(row: Record<string, unknown>): Cafe {
@@ -17,6 +20,9 @@ function rowToCafe(row: Record<string, unknown>): Cafe {
     stationSlug: row.station_slug as string,
     googleMapUrl: row.google_map_url as string,
     recommendationLinks: row.recommendation_links as Cafe["recommendationLinks"],
+    walkMinutes: (row.walk_minutes as number) ?? null,
+    smokingPolicy: (row.smoking_policy as Cafe["smokingPolicy"]) ?? null,
+    seatingInfo: (row.seating_info as string) ?? null,
   }
 }
 
