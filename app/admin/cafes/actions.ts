@@ -2,13 +2,13 @@
 
 import { revalidatePath } from "next/cache"
 import { redirect } from "next/navigation"
-import { createAdminClient } from "@/lib/supabase/admin"
+import { createClient } from "@/lib/supabase/server"
 
 export async function upsertCafe(
   _prevState: { error: string } | null,
   formData: FormData,
 ): Promise<{ error: string } | null> {
-  const supabase = createAdminClient()
+  const supabase = await createClient()
   const stationSlug = formData.get("stationSlug") as string
   const id = formData.get("id") as string
   const recommendationLinks = JSON.parse(
@@ -34,7 +34,7 @@ export async function upsertCafe(
 }
 
 export async function deleteCafe(id: string, stationSlug: string) {
-  const supabase = createAdminClient()
+  const supabase = await createClient()
   const { error } = await supabase.from("cafes").delete().eq("id", id)
   if (error) throw new Error(error.message)
 
