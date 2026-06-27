@@ -89,6 +89,41 @@ export function CafeForm({ cafe }: { cafe?: Cafe }) {
         />
       </Field>
 
+      <div className="grid grid-cols-2 gap-4">
+        <Field label="駅徒歩（分）" name="walkMinutes">
+          <input
+            name="walkMinutes"
+            defaultValue={cafe?.walkMinutes ?? ""}
+            type="number"
+            min="0"
+            placeholder="例: 3"
+            className="input"
+          />
+        </Field>
+        <Field label="喫煙情報" name="smokingPolicy">
+          <select
+            name="smokingPolicy"
+            defaultValue={cafe?.smokingPolicy ?? ""}
+            className="input"
+          >
+            <option value="">未設定</option>
+            <option value="紙電子OK">紙電子OK</option>
+            <option value="電子のみOK">電子のみOK</option>
+            <option value="禁煙">禁煙</option>
+          </select>
+        </Field>
+      </div>
+
+      <Field label="席情報" name="seatingInfo">
+        <textarea
+          name="seatingInfo"
+          defaultValue={cafe?.seatingInfo ?? ""}
+          rows={3}
+          placeholder="例: 席の間隔は広い。ソファーがある。"
+          className="input resize-none"
+        />
+      </Field>
+
       <div className="flex flex-col gap-3">
         <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
           おすすめリンク

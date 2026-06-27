@@ -15,6 +15,9 @@ export async function upsertCafe(
     formData.get("recommendationLinks") as string,
   )
 
+  const walkMinutesRaw = formData.get("walkMinutes") as string
+  const smokingPolicy = (formData.get("smokingPolicy") as string) || null
+
   const { error } = await supabase.from("cafes").upsert({
     id,
     name: formData.get("name"),
@@ -22,6 +25,9 @@ export async function upsertCafe(
     station_slug: stationSlug,
     google_map_url: formData.get("googleMapUrl"),
     recommendation_links: recommendationLinks,
+    walk_minutes: walkMinutesRaw ? Number(walkMinutesRaw) : null,
+    smoking_policy: smokingPolicy,
+    seating_info: (formData.get("seatingInfo") as string) || null,
   })
 
   if (error) return { error: error.message }
