@@ -40,6 +40,10 @@ CREATE TRIGGER cafes_updated_at
 -- ------------------------------------------------------------
 ALTER TABLE cafes ENABLE ROW LEVEL SECURITY;
 
+-- ロールへのアクセス権限付与（RLS ポリシーとは別に必要）
+GRANT SELECT ON public.cafes TO anon;
+GRANT ALL ON public.cafes TO authenticated;
+
 -- 誰でも読み取り可能（公開ページ用）
 CREATE POLICY "cafes_public_read"
   ON cafes

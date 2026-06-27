@@ -1,11 +1,7 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { CafeCard } from "@/components/cafe-card"
-import { getCafesByStationSlug, getStationBySlug, getStations } from "@/lib/cafes"
-
-export function generateStaticParams() {
-  return getStations().map((station) => ({ stationSlug: station.slug }))
-}
+import { getCafesByStationSlug, getStationBySlug } from "@/lib/cafes"
 
 export default async function StationPage({
   params,
@@ -13,13 +9,13 @@ export default async function StationPage({
   params: Promise<{ stationSlug: string }>
 }) {
   const { stationSlug } = await params
-  const station = getStationBySlug(stationSlug)
+  const station = await getStationBySlug(stationSlug)
 
   if (!station) {
     notFound()
   }
 
-  const cafes = getCafesByStationSlug(stationSlug)
+  const cafes = await getCafesByStationSlug(stationSlug)
 
   return (
     <main className="mx-auto min-h-dvh max-w-2xl px-6 pb-20">

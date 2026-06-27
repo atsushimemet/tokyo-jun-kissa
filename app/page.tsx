@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { getStations } from "@/lib/cafes"
 
-export default function HomePage() {
-  const stations = getStations()
+export default async function HomePage() {
+  const stations = await getStations()
   const totalCafes = stations.reduce((sum, s) => sum + s.count, 0)
 
   return (
