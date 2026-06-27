@@ -299,7 +299,7 @@ INSERT INTO cafes (id, name, station, station_slug, google_map_url, recommendati
     '入谷',
     'iriya',
     'https://maps.google.com?q=%E3%80%92110-0013+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E5%85%A5%E8%B0%B7%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%96%E2%88%92%EF%BC%91%EF%BC%96+%E6%9D%BE%E7%94%B0%E3%83%93%E3%83%AB+%E3%83%88%E3%83%AD%E3%83%B3%E3%83%88&ftid=0x60188e903f09ac0d:0x710d7885439c7bbb',
-    '[{"label":"るるぶ&more.：【東京】レトロ喫茶「喫茶トロント」の"映えプリン"やオムライスで、昭和にタイムスリップ","url":"https://rurubu.jp/andmore/article/23973"}]'::jsonb
+    '[{"label":"るるぶ&more.：【東京】レトロ喫茶「喫茶トロント」の\"映えプリン\"やオムライスで、昭和にタイムスリップ","url":"https://rurubu.jp/andmore/article/23973"}]'::jsonb
   ),
   (
     'coffee-oujou',
@@ -355,7 +355,7 @@ INSERT INTO cafes (id, name, station, station_slug, google_map_url, recommendati
     '千駄木',
     'sendagi',
     'https://maps.google.com?q=%E3%80%92113-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%87%E4%BA%AC%E5%8C%BA%E5%8D%83%E9%A7%84%E6%9C%A8%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%94%EF%BC%92%E2%88%92%EF%BC%91%EF%BC%93+%E5%96%AB%E8%8C%B6+%E3%83%8B%E3%83%88&ftid=0x60188d0902696119:0xfadbeb0820d0b7f4',
-    '[{"label":"るるぶ&more.：ネクストトレンド"谷根千"で発見！玉子トースト＆むっちりプリンが絶品なレトロカフェ","url":"https://rurubu.jp/andmore/article/9346"}]'::jsonb
+    '[{"label":"るるぶ&more.：ネクストトレンド\"谷根千\"で発見！玉子トースト＆むっちりプリンが絶品なレトロカフェ","url":"https://rurubu.jp/andmore/article/9346"}]'::jsonb
   ),
   (
     'kissa-tomeibara',
@@ -459,7 +459,7 @@ INSERT INTO cafes (id, name, station, station_slug, google_map_url, recommendati
     '千駄ケ谷',
     'sendagaya',
     'https://maps.google.com?q=%E3%80%92151-0051+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E5%8D%83%E9%A7%84%E3%82%B1%E8%B0%B7%EF%BC%94%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%90%E2%88%92%EF%BC%92+%E7%AC%AC%EF%BC%92%E3%83%9B%E3%83%AA%E3%83%93%E3%83%AB+%E6%B3%A5%E4%BA%BA%E5%BD%A2+%E5%9C%B0%E4%B8%8B1%E9%9A%8E&ftid=0x60188cc0a6ae1e0f:0xf6fcafad6356498d',
-    '[{"label":"logirlブログ：地下で出会った"想像以上のオムライス"とは？ 44年の歴史に新しさを取り入れる「カフェレストラン 泥人形」｜「奥森皐月の喫茶礼賛」第5杯","url":"https://tvablog.tv-asahi.co.jp/reading/logirl/9302/"}]'::jsonb
+    '[{"label":"logirlブログ：地下で出会った\"想像以上のオムライス\"とは？ 44年の歴史に新しさを取り入れる「カフェレストラン 泥人形」｜「奥森皐月の喫茶礼賛」第5杯","url":"https://tvablog.tv-asahi.co.jp/reading/logirl/9302/"}]'::jsonb
   ),
   (
     'coffee-aroma-asakusa',
